@@ -1,0 +1,73 @@
+# This YML file contains a list of Python libraries required for the Hacktiv8 Full-Time Data Science Bootcamp.
+# Author: Danu
+# Version: GAIA v2.3
+# Release Date: 20250612
+# Status: Tested — all packages were successfully installed without conflicts.
+# Note: All libraries listed below use specific version numbers to ensure compatibility.
+
+
+
+name: h8_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - PyQt5==5.15.11
+      - pandas==2.2.2
+      - numpy==1.26.4
+      - setuptools==68.2.2
+      - wheel==0.41.2
+      - scikit-learn==1.6.1
+      - scipy==1.13.1
+      - matplotlib==3.9.4
+      - apache-airflow==2.3.4 --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.3.4/constraints-3.9.txt
+      - bokeh==3.4.3
+      - cmake==3.31.6
+      - elasticsearch==7.13.4
+      - Faker==20.1.0
+      - ipython==7.34.0
+      - Jinja2==3.1.6
+      - jupyter==1.1.1
+      - kaggle==1.7.4.5
+      - kagglehub==0.3.12
+      - lxml==5.4.0
+      - nltk==3.9.1
+      - opencv-contrib-python==4.11.0.86
+      - opencv-python==4.11.0.86
+      - opencv-python-headless==4.11.0.86
+      - openpyxl==3.1.5
+      - pillow==11.2.1
+      - plotly==5.24.1
+      - psutil==6.0.0
+      - pyarrow==18.1.0
+      - psycopg2-binary==2.9.10
+      - pytz==2025.2
+      - PyYAML==6.0.2
+      - requests==2.32.3
+      - scikit-image==0.24.0
+      - shap==0.47.2
+      - SQLAlchemy==1.4.54
+      - tensorflow==2.18.0
+      - tf-keras==2.18.0
+      - wandb==0.19.11
+      - xgboost==2.1.4
+      - xlrd==2.0.1
+      - beautifulsoup4==4.13.4
+      - selenium==4.32.0
+      - Flask==2.2.5
+      - fastapi==0.115.12
+      - uvicorn[standard]==0.34.3
+      - gunicorn==23.0.0
+      - imbalanced-learn==0.12.4
+      - streamlit==1.44.0
+      - pymongo==4.13.0
+      - dbt-postgres==1.9.0
+      - dbt-airflow==3.0.1
+      - gensim==4.3.3
+      - pyspark==4.0.0
+      - great-expectations==0.18.22
+      - feature-engine==1.8.3
+      - statsmodels==0.14.4
+      - seaborn==0.13.2
