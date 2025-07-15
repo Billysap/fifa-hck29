@@ -11,7 +11,7 @@ def run():
     st.write('# FIFA PLAYER RATING')
 
     # load
-    gambar = Image.open('Ringkasan Statistik Deskriptif .jpg')
+    gambar = Image.open('Ringkasan Statistik Deskriptif.jpg')
     st.write(gambar)
 
     st.write('# Description')
